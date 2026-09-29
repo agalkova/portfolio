@@ -47,7 +47,7 @@ export default function AboutPage() {
           <ul className="contact-list">
             <li><a href="mailto:galkovaa@lakeforest.edu">galkovaa@lakeforest.edu</a></li>
             <li><a href="https://www.linkedin.com/in/agalkova/">LinkedIn</a></li>
-            <li><a href="https://github.com/ageefox">GitHub</a></li>
+            <li><a href="https://github.com/agalkova">GitHub</a></li>
             <li><a href="/anastasia-galkova-resume.pdf">Résumé PDF</a></li>
           </ul>
         </section>
