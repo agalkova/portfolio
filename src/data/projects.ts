@@ -26,7 +26,7 @@ export const projects: Project[] = [
       "A one-month-ahead forecasting study built around chronological evaluation, past-only features, and a genuinely later test period.",
     result:
       "Ridge reduced external-period RMSE from 0.1922 to 0.1606 percentage points relative to persistence. Its smaller MAE advantage remained inconclusive.",
-    repository: "https://github.com/ageefox/effr-forecasting-ml",
+    repository: "https://github.com/agalkova/effr-forecasting-ml",
     image: "/images/effr-external-forecast.png",
     imageAlt:
       "Actual effective federal funds rate and forecasts from persistence, Ridge, and Random Forest from 2017 through 2026, with trailing twelve-month errors.",
@@ -66,17 +66,17 @@ export const projects: Project[] = [
     tools: ["Python", "pandas", "scikit-learn", "pytest", "GitHub Actions"],
   },
   {
-    slug: "takemeter",
+    slug: "craft-forum-nlp",
     number: "02",
-    title: "TakeMeter",
-    shortTitle: "TakeMeter",
+    title: "Craft Forum NLP",
+    shortTitle: "Craft Forum NLP",
     category: "NLP · Evaluation · Small data",
     summary:
       "A four-class text benchmark that keeps entire forum conversations out of training and asks whether larger language models actually generalize better.",
     result:
       "TF–IDF with logistic regression reached 0.310 macro F1 on unseen threads. Both DistilBERT variants remained close to the majority baseline.",
-    repository: "https://github.com/ageefox/takemeter",
-    image: "/images/takemeter-model-comparison.png",
+    repository: "https://github.com/agalkova/craft-forum-nlp",
+    image: "/images/craft-forum-model-comparison.png",
     imageAlt:
       "Horizontal bar chart showing TF-IDF with logistic regression leading the unseen-thread test set at 0.310 macro F1.",
     metrics: [
@@ -124,7 +124,7 @@ export const projects: Project[] = [
       "A contained contribution to an unfamiliar Python codebase: diagnose an ineffective snapshot test and replace it with real regression protection.",
     result:
       "The revised test protects every prompt template and version, catches inventory changes, and passed all 42 focused tests plus a deliberate mutation check.",
-    repository: "https://github.com/ageefox/pathreview",
+    repository: "https://github.com/agalkova/pathreview",
     externalLink: "https://github.com/ascherj/pathreview/pull/769",
     metrics: [
       { value: "42", label: "focused tests passed" },
